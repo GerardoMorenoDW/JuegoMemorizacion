@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(0,150,191);
+    background: linear-gradient(0deg, rgba(0,150,191,0.9682247899159664) 0%, rgba(0,92,191,1) 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 0px;
+    margin: 0px auto;
+}
+.encabezado-titulo{
+    text-align: center;
+    margin-bottom: 90px;
+    border-bottom: 1px solid gray;
+    padding: 30px;
+}
+
+main{
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+/*Juego*/
+.juego{
+    background-color: rgba(0, 47, 255, 0.296);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.juego table{
+    margin: 0 auto;
+}
+.juego .titulo-juego{
+    margin-bottom: 10px;
+}
+.juego button{
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+    font-size: 28px;
+    color: black;
+}
+
+/*ESTADISTICAS*/
+.puntuacion{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.estadisticas{
+    padding: 50px;
+    background-color: rgba(0, 47, 255, 0.296);
+    border-radius: 8px;
+    width: 85%;
+}
+img{
+    width: 80%;
+}
+
+.footer{
+    border-top: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
