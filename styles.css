@@ -5,17 +5,18 @@
 }
 
 body{
-    background: rgb(0,150,191);
-    background: linear-gradient(0deg, rgba(0,150,191,0.9682247899159664) 0%, rgba(0,92,191,1) 100%);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    background-color: #ddd;
     padding: 0px;
     margin: 0px auto;
 }
 .encabezado-titulo{
     text-align: center;
-    margin-bottom: 90px;
-    border-bottom: 1px solid gray;
+    background: rgb(0,150,191);
+    background: linear-gradient(0deg, rgba(0,150,191,0.9682247899159664) 0%, rgba(0,92,191,1) 100%);
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
     padding: 30px;
 }
 
@@ -31,6 +32,7 @@ main{
 /*Juego*/
 .juego{
     background-color: rgba(0, 47, 255, 0.296);
+    background: linear-gradient(0deg, rgba(0,150,191,0.9682247899159664) 0%, rgba(0,92,191,1) 100%);
     padding: 20px;
     text-align: center;
     border-radius: 5px;
@@ -60,6 +62,7 @@ main{
 .estadisticas{
     padding: 50px;
     background-color: rgba(0, 47, 255, 0.296);
+    background: linear-gradient(0deg, rgba(0,150,191,0.9682247899159664) 0%, rgba(0,92,191,1) 100%);
     border-radius: 8px;
     width: 85%;
 }
@@ -69,6 +72,8 @@ img{
 
 .footer{
     border-top: 1px solid black;
+    background: rgb(0,150,191);
+    background: linear-gradient(0deg, rgba(0,150,191,0.9682247899159664) 0%, rgba(0,92,191,1) 100%);
     width: 100%;
     text-align: center;
     padding: 20px;
